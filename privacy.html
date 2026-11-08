@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ETTORE Desktop · Privacy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d2330; --muted: #5b6475; --accent: #2457c5; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #14171f; --fg: #e8ebf2; --muted: #a3abbb; --accent: #8fb0ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem; }
+  h1 { margin-bottom: .25rem; } p.lead { color: var(--muted); margin-top: 0; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Informativa sulla privacy</h1>
+  <p class="lead">ETTORE Desktop · aggiornata l'8 novembre 2026</p>
+
+  <h2>Chi tratta i dati</h2>
+  <p>ETTORE Desktop è un'applicazione che gira sul computer dell'utente. Non esiste un server di ETTORE: lo sviluppatore non riceve, non conserva e non vede alcun dato dell'utente.</p>
+
+  <h2>Dati di Gmail a cui accede</h2>
+  <p>Solo dopo che l'utente lo autorizza con Google, e con i soli permessi che concede:</p>
+  <ul>
+    <li><strong>lettura</strong> (gmail.readonly): cercare e leggere messaggi, conversazioni e allegati, quando l'utente lo chiede;</li>
+    <li><strong>bozze</strong> (gmail.compose): creare bozze nella casella dell'utente. L'applicazione non invia email: le bozze le spedisce l'utente da Gmail.</li>
+  </ul>
+
+  <h2>Dove vanno i dati</h2>
+  <ul>
+    <li>Il token di accesso di Google è conservato solo sul computer dell'utente, in un file leggibile solo da lui.</li>
+    <li>Gli allegati vengono salvati solo dove l'utente lavora, nella cartella del suo progetto.</li>
+    <li>Quando l'utente chiede di leggere un'email, il suo testo viene passato al modello di intelligenza artificiale che l'utente stesso ha scelto e configurato in ETTORE (per esempio MiniMax o un modello tramite OpenRouter), perché è quel modello a leggerlo e rispondere. Quel passaggio avviene con le credenziali dell'utente e secondo le condizioni di quel fornitore.</li>
+    <li>I dati di Gmail non sono venduti, non sono usati per pubblicità e non sono usati per addestrare modelli di intelligenza artificiale da parte dello sviluppatore.</li>
+  </ul>
+
+  <h2>Uso limitato</h2>
+  <p>L'uso e il trasferimento ad altre applicazioni delle informazioni ricevute dalle API di Google rispettano le <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, compresi i requisiti di uso limitato (Limited Use).</p>
+
+  <h2>Revocare l'accesso</h2>
+  <p>L'utente può revocare l'accesso in qualsiasi momento: da ETTORE (scollega Gmail), che cancella anche il token dal computer, oppure da <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Contatto</h2>
+  <p>Ettore Berardi · <a href="mailto:ettore.berardi77@gmail.com">ettore.berardi77@gmail.com</a></p>
+  <p><a href="index.html">← ETTORE Desktop</a></p>
+</main>
+</body>
+</html>
